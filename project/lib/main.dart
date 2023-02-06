@@ -25,7 +25,7 @@ class _TestState extends State<Test> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             DropdownButton(
-              hint: Text("frouit"),
+              hint: Text("My frouit"),
               items: ["banana", "apple", "orange", "lemon"]
                   .map((e) => DropdownMenuItem(
                         child: Text("$e"),
